@@ -1,3 +1,0 @@
-# FSJS Project Six
-
-Project 6 of the www.teamtreehouse.com Full Stack JavaScript techdegree program. In this project, I created a static portfolio website that uses Node.js and Express. Included are error handlers, images and links to my previous Team Treehouse projects, and dynamic page links that display the correlated project's information by the use of query strings. When you download the files (note: or you can automically grab the files by typing in your terminal 'git clone https://github.com/Zandy12/FSJS-Project-Six'), in your terminal type 'npm install', then 'npm start' or 'node app.js'. In your browser, type in 'localhost:3000' to see the website.
