@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "description": "The first project in Treehouse's Full Stack Javascript Techdegree program. Using arrays, objects, functions, and methods to display a cycle of random quotes.",
+      "github_link": "https://github.com/Zandy12/FSJS-Project-One-",
+      "id": 0,
+      "image_urls": [ "static/images/Project_0/550x550.png", "static/images/Project_0/1200x550.png" ],
+      "live_link": "static/projects/project_1/index.html",
+      "project_name": "A Random Quote Generator",
+      "technologies": [ "HTML", "CSS", "JavaScript" ]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "This is my project submission for the second project task of the Full Stack Javascript techdegree program on teamtreehouse.com. The goal of the project was to create Javascript code that can sort a certain amount of students (in this case, 10), and display them according to the number of pages generated for all students available on the list. In this project I learned how to use loops, functions, comments, event handlers, select html elements, and change html attributes via Javascript. The script works by first creating variables for grabbing the list, page div, and restricting how many students per page. We then generate n number of pages correlating to the amount of students on the list divided by the number of students allowed each page. Last, we set up the initial page displaying only the first ten students on the list and then add an event listener for detecting when the page links are pressed.",
+      "technologies": ["HTML","CSS","JavaScript"],
+      "live_link": "static/projects/project_2/index.html",
+      "github_link": "https://github.com/Zandy12/FSJS-Project-Two",
+      "image_urls": [ "static/images/Project_1/550x550.png", "static/images/Project_1/1200x550.png" ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "This is my first submission for the third project of the Full Stack Javascript techdegree program. In this project we added interactivity to the already provided form from Treehouse (index.html and css/style.css) via Javascript by implementing error handlers and regex boolean conditions for form validation. jQuery was used heavily in this project alongside vanilla Javascript and Regular expressions. Third-party source code was also used in this project to which credit has been giving specifically.",
+      "technologies": [ "HTML", "CSS", "JavaScript", "jQuery" ],
+      "live_link": "static/projects/project_3/index.html",
+      "github_link": "https://github.com/Zandy12/FSJS-Project-Three",
+      "image_urls": [ "static/images/Project_2/550x550.png", "static/images/Project_2/1200x550.png" ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "Fourth project of the Full Stack Javascript Techdegree program on teamtreehouse.com",
+      "technologies": [ "HTML", "CSS", "JavaScript", "jQuery" ],
+      "live_link": "static/projects/project_4/index.html",
+      "github_link": "https://github.com/Zandy12/FSJS-Project-Four",
+      "image_urls": [ "static/images/Project_3/550x550.png", "static/images/Project_3/1200x550.png" ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "Project 5 of the www.teamtreehouse.com Full Stack Javscript techdegree program. This project makes use of public API requests and converting parsed data from JSON into stylized markup, displaying 12 random people and their information on the webpage. Included feature is a modal window that opens and closes after clicking either on the user's name or thumbnail. This project uses the Random User Generator API (https://randomuser.me/).",
+      "technologies": [ "HTML", "CSS", "JavaScript", "jQuery", "JSON", "Random User Generator API" ], 
+      "live_link": "static/projects/project_5/index.html",
+      "github_link": "https://github.com/Zandy12/FSJS-Project-Five-",
+      "image_urls": [ "static/images/Project_4/550x550.png", "static/images/Project_4/1200x550.png" ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+#ignore node_modules folder
+node_modules
+
+#ignore visual studio folders
+.vs
+bin
+obj
+
+#ignore visual studio files
+FSJS Project Six.njsproj
+FSJS Project Six.njsproj.user
+FSJS Project Six.sln
+
+#ignore downloaded project files
+example-html
+mockups
+
