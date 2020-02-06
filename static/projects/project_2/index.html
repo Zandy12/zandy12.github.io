@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile-first Responsive Layout</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+      <header>
+        <div class="largeHeader clearfix">
+          <h1 class="nameTop"><b>Zane Chandy</b></h1>
+          <nav class="headerNav">
+            <ul class="topNav">
+              <li class="uppercase"><a href="#">Home</a></li>
+              <li class="uppercase showing"><a href="#portfolio">Portfolio</a></li>
+              <li class="uppercase hidden"><a href="#portfolioHidden">Portfolio</a></li>
+              <li class="uppercase"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mediumDisplay clearfix">
+          <img class="profilePic" src="img/responsive-layout-profile.png" alt="Profile picture of Zane Chandy." />
+          <p class="introduction">Hello! My name is Zane and I am an aspiring software developer who has been practicing code for a little over a year now. For each project that I work on i've always put forth the best of my talent and passion. My speciality is in Web Design. I am currently in school for Computer and Information Sciences at Indian River State College whilst getting extra education over at Treehouse for Full-stack development.</p>
+        </div>
+      </header>
+      <main>
+        <section id="portfolio" class="portfolioSmall">
+          <h2 class="uppercase title">Portfolio</h2>
+            <div class="firstRow">
+              <article class="firstArticle">
+                <img class="portfolioImage" src="img/portfolio-1.png" alt="Front page of marketing website." />
+                <h2>Marketing Page</h2>
+                <p class="portfolioText">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+              </article>
+              <article class="secondArticle">
+                <img class="portfolioImage" src="img/portfolio-2.png" alt="Search page using specific databases." />
+                <h2>Search Page</h2>
+                <p class="portfolioText">This project searches through a specific database to find information that the user is trying to look up.</p>
+              </article>
+            </div>
+            <div class="secondRow">
+              <article class="firstArticle">
+                <img class="portfolioImage" src="img/portfolio-3.png" alt="Travel App layout and design view." />
+                <h2>Travel App</h2>
+                <p class="portfolioText">This project compares travel times based on different transportation methods and tells you the best one.</p>
+              </article>
+              <article class="secondArticle">
+                <img class="portfolioImage" src="img/portfolio-4.png" alt="Map displaying plot points for favorite spots in the city." />
+                <h2>Map of Favorite Spots</h2>
+                <p class="portfolioText">This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+              </article>
+            </div>
+            <div class="thirdRow">
+              <article class="firstArticle">
+                <img class="portfolioImage" src="img/portfolio-5.png" alt="Photo gallery showing unique features." />
+                <h2>Photo Gallery</h2>
+                <p class="portfolioText">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+              </article>
+              <article class="secondArticle">
+                <img class="portfolioImage" src="img/portfolio-6.png" alt="Simple calculator project." />
+                <h2>Calculator</h2>
+                <p class="portfolioText">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+              </article>
+            </div>
+        </section>
+        <section id="portfolioHidden" class="portfolioLarge">
+          <h2 class="uppercase title">Portfolio</h2>
+            <div class="firstRow">
+              <article class="firstArticle">
+                <img class="portfolioImage" src="img/portfolio-1.png" alt="Front page of marketing website." />
+                <h2>Marketing Page</h2>
+                <p class="portfolioText">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+              </article>
+              <article class="secondArticleLarge">
+                <img class="portfolioImage" src="img/portfolio-2.png" alt="Search page using specific databases." />
+                <h2>Search Page</h2>
+                <p class="portfolioText">This project searches through a specific database to find information that the user is trying to look up.</p>
+              </article>
+              <article class="thirdArticle">
+                <img class="portfolioImage" src="img/portfolio-3.png" alt="Travel App layout and design view." />
+                <h2>Travel App</h2>
+                <p class="portfolioText">This project compares travel times based on different transportation methods and tells you the best one.</p>
+              </article>
+            </div>
+            <div class="secondRow">
+              <article class="firstArticle">
+                <img class="portfolioImage" src="img/portfolio-4.png" alt="Map displaying plot points for favorite spots in the city." />
+                <h2>Map of Favorite Spots</h2>
+                <p class="portfolioText">This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+              </article>
+              <article class="secondArticleLarge">
+                <img class="portfolioImage" src="img/portfolio-5.png" alt="Photo gallery showing unique features." />
+                <h2>Photo Gallery</h2>
+                <p class="portfolioText">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+              </article>
+              <article class="thirdArticle">
+                <img class="portfolioImage" src="img/portfolio-6.png" alt="Simple calculator project." />
+                <h2>Calculator</h2>
+                <p class="portfolioText">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+              </article>
+            </div>
+        </section>
+      </main>
+      <footer id="contact">
+        <h2 class="uppercase smallDisplay">Contact</h2>
+        <p class="conclusion">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+          <ul class="contact">
+            <li class="method">Phone&nbsp;&nbsp;<b class="info">+1(111)555-1234</b></li>
+            <li class="method">Email&nbsp;&nbsp;<b class="info">zanechandy@gmail.com</b></li>
+          </ul>
+          <hr />
+          <div class="bottom clearfix">
+            <p class="name"><b>Zane Chandy</b></p>
+            <nav class="bottomNav">
+              <ul>
+                <li class="uppercase"><a href="#">Home</a></li>
+                <li class="uppercase showing"><a href="#portfolio">Portfolio</a></li>
+                <li class="uppercase hidden"><a href="#portfolioHidden">Portfolio</a></li>
+                <li class="uppercase"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+            <a class="uppercase backToTop" href="#">Back to top</a>
+          </div>
+      </footer>
+  </body>
+</html>
