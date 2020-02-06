@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  color: #333333;
+}
+
+h1, h2, li, .conclusion, .topNav {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  margin: 5px 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.uppercase {
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  font-size: 98%;
+}
+
+header, footer {
+  /* border: 1px solid black; /* for debugging */
+  background-color: #f7f7f7;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.introduction, .method, .conclusion {
+  color: #6b6b6b;
+}
+
+.info {
+  color: #6b6b6b;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.portfolioText {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.bottom {
+  display: inline-block;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.name {
+  float: left;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.smallDisplay {
+  margin: 20px 0;
+}
+
+.contact {
+  padding-bottom: 25px;
+}
+
+.contact li {
+  padding: 5px 0;
+}
+
+.method {
+  background-color: #f7f7f7;
+}
+
+.backToTop {
+  background-color: #f7f7f7;
+  float: right;
+  margin-top: -2px;
+  margin-right: 10px;
+}
+
+.headerNav {
+    margin-left: -40px
+}
+
+.hidden {
+    display: none;
+}
+
+.bottomNav {
+    display: none;
+}
+
+.profilePic {
+    padding-top: 25px;
+}
+
+.introduction, .conclusion {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.portfolioLarge {
+    display: none;
+}
+
+body {
+    /* For debugging */
+    /* background-color: green; */
+}
+
+/* min-width means starting point, max-width means ending point */
+
+@media (min-width: 768px) {
+  body {
+    /* For debugging */
+    /* background-color: red; */
+  }
+  header {
+    padding-top: 5px;
+  }
+  li {
+    display: inline;
+    background-color: #f7f7f7;
+  }
+  .hidden {
+    display: none;
+  }
+  .bottomNav {
+    display: inline-block;
+    margin-top: -15px;
+    float: right;
+    font-size: 98%;
+  }
+  .backToTop {
+    /*backToTopDisplay? */
+    display: none;
+  }
+  .mediumDisplay {
+    padding: 40px 0;
+    display: inline-block;
+    width: 95%;
+  }
+  .profilePic {
+    float: right;
+    height: 50%;
+    width: 50%;
+    margin: 0 -18px; /* top/bottom left/right */
+  }
+  .introduction {
+    text-align: left;
+    float: left;
+    width: 45%;
+    margin-left: 18px;
+    margin-right: 5px;
+    /* border: solid 1px black; /* for debugging */
+  }
+  .title {
+    padding: 23px 0;
+  }
+  .portfolioImage {
+    width: 95%;
+  }
+  .firstRow, .secondRow, .thirdRow {
+    display: inline-block;
+    width: 100%;
+  }
+  .firstArticle {
+    float: left;
+    width: 50%;
+  }
+  .secondArticle {
+    float: right;
+    width: 50%;
+  }
+  .portfolioLarge {
+    display: none;
+  }
+  footer {
+    padding: 40px 0;
+  }
+  .smallDisplay {
+    margin-top: -3px;
+  }
+  .conclusion {
+    margin: 25px 50px;
+  }
+  .method {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    border: 25px solid #f7f7f7;
+  }
+  header {
+    margin-top: 0px;
+  }
+  footer {
+    margin-bottom: 0px;
+  }
+  .portfolio {
+    background-color: white;
+  }
+  .largeHeader {
+    width: 100%;
+  }
+  .nameTop {
+    float: left;
+    margin-left: 18px;
+  }
+  .showing {
+    display: none;
+  }
+  .hidden {
+    display: inline-block;
+  }
+  .topNav {
+    float: right;
+    margin-top: 38px; /* 41px */
+    margin-right: 10px;
+  }
+  .introduction {
+    font-size: 120%;
+  }
+  .profilePic {
+    width: 45%;
+    height: 45%;
+    margin-right: -30px;
+  }
+  .portfolioSmall {
+    display: none;
+  }
+  .portfolioLarge {
+    border: 10px solid white;
+    display: inline-block;
+  }
+  .firstRow, .secondRow {
+    display: flex;
+    width: 100%;
+  }
+  .firstArticle {
+    float: left;
+    width: 33%;
+  }
+  .secondArticleLarge {
+    margin-right: auto;
+    margin-left: auto;
+    width: 33%;
+  }
+  .thirdArticle {
+    float: right;
+    width: 33%;
+  }
+}

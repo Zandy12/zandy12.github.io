@@ -10,7 +10,7 @@ var app = express();
 
 // Create an array with project data from data.json
 let projects = [
-    data.projects[0], data.projects[1], data.projects[2], data.projects[3], data.projects[4]
+    data.projects[0], data.projects[1], data.projects[2], data.projects[3], data.projects[4], data.projects[5], data.projects[6], data.projects[7],data.projects[8], data.projects[9], data.projects[10], data.projects[11], data.projects[12], data.projects[13]
 ];
 
 // view engine setup
@@ -34,7 +34,11 @@ app.get('/about', (req, res) => {
 // for loop for creating the project pages
 for (let i = 0; i < projects.length; ++i) {
     app.get(`/project_${projects[i].id}`, (req, res) => {
-        res.render('project', { title: projects[i].project_name, description: projects[i].description, tools: projects[i].technologies, liveLink: projects[i].live_link, GitHub: projects[i].github_link, img: projects[i].image_urls[1] });
+        let linkExists = false;
+        if (projects[i].live_link != undefined) {
+            linkExists = true;
+        }
+        res.render('project', { title: projects[i].project_name, description: projects[i].description, tools: projects[i].technologies, liveLink: projects[i].live_link, GitHub: projects[i].github_link, img: projects[i].image_urls[1], linkExists: linkExists });
     });
 }
 
